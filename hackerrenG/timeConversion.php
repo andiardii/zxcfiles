@@ -45,6 +45,7 @@ function timeConversion($s) {
 	}
 
     print_r($new);
+    //use return $new if web using $stdin
 }
 
 timeConversion($s);
