@@ -1,1 +1,19 @@
-Tes Commit Windows lagi
+/* list syntax */
+git add .
+git commit -m ""
+git push -u origin main
+
+git branch -m main
+git checkout -m main
+git fetch origin
+git pull origin main
+
+git config --list
+git config --global user.name "username"
+
+git init
+git remote -v
+git remote add origin https://github.com/andiardii/zxcfiles.git
+
+/* others */
+windows setting > credentials manager
