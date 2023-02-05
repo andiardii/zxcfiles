@@ -1,0 +1,14 @@
+<HTML>
+
+/* Example button with copy paste from textarea */
+<script type="text/javascript">
+    function copy_text() {
+        document.getElementById("pilih").select();
+        document.execCommand("copy");
+    }
+</script>
+<button type='button' onclick='copy_text();'>Copy</button>
+<textarea style='width:70%; background:white' id='pilih' readonly>blablabla</textarea>
+    
+
+</HTML>
