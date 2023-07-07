@@ -1,0 +1,42 @@
+==========================/* list syntax */==========================
+
+// first setup
+git init
+git remote -v
+git remote add origin https://github.com/andiardii/zxcfiles.git
+
+// push
+git add .
+git commit -m ""
+git pull --rebase --autostash origin main
+git push -u origin main
+
+// switch branch & getch latest
+git branch -m main
+git checkout -m main
+git fetch origin
+git pull origin main
+
+// config push
+git config --list
+git config --global user.name "username"
+
+// search different
+git diff <filedir>
+
+// undo changes
+git checkout -- <filedir>
+
+// delete local branch & remote
+git branch -D localBranchName
+git push origin --delete remoteBranchName
+
+// back previous commit
+git reset HEAD^
+
+// back to specific previous commit
+git reflog
+git reset --hard <unique_id_here>
+
+==========================/* others */==========================
+windows setting > credentials manager
